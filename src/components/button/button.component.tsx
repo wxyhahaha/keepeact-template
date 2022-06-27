@@ -1,4 +1,4 @@
-import { ValueComponent, Component, Watch, Prop, Ref } from 'keepeact-core';
+import { ValueComponent, Component, Watch, Prop, Ref } from 'keepeact';
 import './button.component.less';
 
 @Component()

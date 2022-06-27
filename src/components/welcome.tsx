@@ -1,4 +1,4 @@
-import { Component, ValueComponent } from 'keepeact-core';
+import { Component, ValueComponent } from 'keepeact';
 import KButton from './button/button.component';
 
 @Component()

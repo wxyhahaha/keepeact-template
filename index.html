@@ -10,15 +10,15 @@
 
 <body>
 
-  <div id="asd">
-    <div id="aa"></div>
+  <div id="wapper">
+    <div id="welcome"></div>
 
   </div>
-  <div id="fas"></div>
+  <div id="else"></div>
 </body>
 <script type="module">
   import { WelCome } from '/src/index.ts';
-  WelCome.create(document.querySelector('#aa'), {
+  WelCome.create(document.querySelector('#welcome'), {
     defaultCount: 4,
     valueChange(e) {
       console.log('coutn:', e);

@@ -7,7 +7,7 @@
     "types"
   ],
   "scripts": {
-    "build": "vite build --mode=development && tsc",
+    "build": "vite build && tsc",
     "dev": "vite"
   },
   "dependencies": {
