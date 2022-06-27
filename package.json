@@ -11,7 +11,7 @@
     "dev": "vite"
   },
   "dependencies": {
-    "keepeact-core": "^1.0.0"
+    "keepeact-core": "^1.1.0"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
