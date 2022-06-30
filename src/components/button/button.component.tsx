@@ -32,7 +32,7 @@ export default class KButton extends ValueComponent {
           this.onChange(this.count);
         }}
       >
-        点我+1
+        click+1
       </button>
     );
   }

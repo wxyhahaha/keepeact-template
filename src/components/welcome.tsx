@@ -18,7 +18,7 @@ export default class WelCome extends ValueComponent {
     const welcomeWrapper = (
       <div>
         <p>WelCome to Keepeact, I wish you like it.</p>
-          <p>demo: if count {'>'} {this.max}, well stop</p>
+          <p>demo:  well stop, if count {'>'} {this.max}</p>
         <ul>
           <li>{this.buttonDemo()}</li>
         </ul>
