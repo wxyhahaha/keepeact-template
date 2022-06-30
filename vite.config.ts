@@ -10,6 +10,10 @@ export default defineConfig({
     },
     outDir: 'dist',
     assetsDir: '',
+    lib: {
+      entry: './src/index.ts',
+      name: 'Keepeact',
+    },
   },
   esbuild: {
     jsxFactory: 'createVNode',

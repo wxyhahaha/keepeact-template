@@ -6,13 +6,14 @@ export default class KButton extends ValueComponent {
   count = 0;
   showStop = true;
   @Prop() defaultCount: number;
+  @Prop() max: number = 3;
   @Ref('button') buttonEl: HTMLElement;
   @Watch('count', {
     immediate: true,
   })
   countChange(a, b) {
     console.log('监测 count:', `oldValue: ${a}`, `newValue: ${b}`);
-    this.showStop = this.count > 6;
+    this.showStop = this.count > this.max;
   }
 
   get countValue() {
